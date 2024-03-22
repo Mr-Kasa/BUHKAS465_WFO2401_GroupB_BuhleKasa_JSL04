@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-userPreference===''||userPreference==='regular' ? console.log('Regular') : console.log('Sugar-Free')
+console.log(userPreference===''||userPreference==='regular' ? 'Regular' : 'Sugar-Free')
 
 
 
@@ -14,14 +14,14 @@ userPreference===''||userPreference==='regular' ? console.log('Regular') : conso
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-cansLeft<5 ? console.log('Time to restock!') : console.log("We're stocked")
+console.log(cansLeft<5 ? 'Time to restock!' : "We're stocked")
 
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-heartRate<100 ? console.log("Boost needed!") : console.log("Energy levels are high!")
+console.log(heartRate<100 ? "Boost needed!" : "Energy levels are high!")
 
 
 // #### Challenge 4: Temperature Suitability
@@ -29,7 +29,7 @@ heartRate<100 ? console.log("Boost needed!") : console.log("Energy levels are hi
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-currentTemp <= 5 ? console.log("Chilled to perfection!")  : console.log("Needs a cooler!")
+console.log(currentTemp <= 5 ? "Chilled to perfection!"  : "Needs a cooler!")
 
 
 // #### Challenge 5: Late Night Coding Session
@@ -39,7 +39,7 @@ currentTemp <= 5 ? console.log("Chilled to perfection!")  : console.log("Needs a
 
 // Define the current hour in 24-hour format
 let currentHour = 22; 
-currentHour>7 && currentHour<24 ? console.log("Unleash the beast!") : console.log("Better stick to water.")
+console.log(currentHour>7 && currentHour<24 ? "Unleash the beast!": "Better stick to water.")
 
 
 
